@@ -1,9 +1,10 @@
 #include <stdio.h>
 int main(){
-    float a,b;
-    float pi=3.14;
+    float a,b,d;
+    float c=3.14;
     scanf("%f",&a);
-    float b=pi*(a**2);
-    printf("Area: %f",b)
+    float b=a*a;
+    float d=c*b;    
+    printf("Area: %f",d)
     return 0;
 }
