@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    float a,b,c;
+    float a,b,c[3];
     printf("");
     scanf("%f %f",&a,&b);
     c=(a*b);
