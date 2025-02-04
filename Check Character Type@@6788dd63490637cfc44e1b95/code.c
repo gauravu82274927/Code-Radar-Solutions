@@ -12,7 +12,7 @@ int main() {
             printf("Consonant");
         }
     } else {
-        printf("Special Charcter");
+        printf("Special Character");
     }
 
     return 0;
