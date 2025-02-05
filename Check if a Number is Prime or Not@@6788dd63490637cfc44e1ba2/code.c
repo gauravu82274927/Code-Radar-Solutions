@@ -1,9 +1,6 @@
 #include<stdio.h>
 int main(){
     int a, count=0, i;
-    printf("Enter a number: ");
-
-    
     scanf("%d",&a);
     if (a<0){
         printf("INVALID INPUT !");
