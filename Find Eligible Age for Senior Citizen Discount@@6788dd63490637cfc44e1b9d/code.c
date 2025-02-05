@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
     int a;
-    scaanf("%d",&a);
+    scanf("%d",&a);
     if(a>=60){
         printf("Eligible");
     }
