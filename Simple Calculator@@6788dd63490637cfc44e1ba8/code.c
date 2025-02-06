@@ -2,7 +2,6 @@
 int main(){
     int a,b,d,e,f,g;
     char c;
-
     scanf("%d %d %c",&a,&b,&c);
     d=a+b;
     e=a-b;
