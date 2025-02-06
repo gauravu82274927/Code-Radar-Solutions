@@ -2,7 +2,6 @@
 
 int main() {
     int day;
-    printf("1 se 7 tak koi number daaliye: ");
     scanf("%d", &day);
 
     switch (day) {
