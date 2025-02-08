@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main() {
-    int n = 5;
+    int n;
+    scanf("%d",&n);
 
     // Upper Half (Pyramid)
     for(int i = 1; i <= n; i++) {
