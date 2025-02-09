@@ -11,7 +11,7 @@ int main() {
 
     int msb = 1 << (31 - __builtin_clz(n));  // Find the actual MSB value
 
-    if (msb) {
+    if (msb==1) {
         printf("Set");
     } 
     else {
