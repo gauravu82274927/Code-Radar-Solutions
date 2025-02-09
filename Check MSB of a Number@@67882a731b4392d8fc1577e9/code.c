@@ -13,8 +13,9 @@ int main() {
     if(msb==1){
         printf("Set");
     }
-    else{
+    if(msb==0){
         printf("Not Set");
+        
     }
     
     return 0;
