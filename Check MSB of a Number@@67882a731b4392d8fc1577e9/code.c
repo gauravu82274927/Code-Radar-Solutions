@@ -10,8 +10,12 @@ int main() {
         n = n >> 1;  // Right shift until only MSB remains
         msb = 1;
     }
-    
-    printf("%d\n", msb);
+    if(msb==1){
+        printf("Set");
+    }
+    else{
+        printf("Not Set");
+    }
     
     return 0;
 }
