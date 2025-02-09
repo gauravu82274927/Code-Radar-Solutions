@@ -13,7 +13,8 @@ int main() {
 
     if (msb) {
         printf("Set");
-    } else {
+    } 
+    else {
         printf("Not Set");
     }
 
