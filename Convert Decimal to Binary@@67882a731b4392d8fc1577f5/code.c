@@ -1,7 +1,6 @@
 #include<stdio.h>
 int main(){
     int a,rem,bin=0,place=1;
-    printf("Enter a number: ");
     scanf("%d",&a);
     while(a){
         rem = a % 2;         
