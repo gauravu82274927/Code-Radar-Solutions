@@ -5,6 +5,6 @@ int main(){
     scanf("%f",&a);xuu
     b=a*a;
     d=c*b;    
-    printf("Area: %.2f",d);xuu
+    printf("Area: %.2f",d);
     return 0;
 }
