@@ -11,7 +11,7 @@ int main(){
         if (arr[i]%2==0 && arr[i]!=1){
             even+=1;
         }
-        else if (arr[i]%2!=0){
+        else if (arr[i]%2!=0 || arr[i]==1){
             odd+=1;
         }
     }
