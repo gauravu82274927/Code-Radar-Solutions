@@ -4,7 +4,7 @@ int main(){
     scanf("%d",n);
     int arr[n];
     for(int i=1;i<=n;i++){
-        scanf("%d",&arr[]);
+        scanf("%d",&arr[i]);
     }
     int even=0,odd=0;
     for(i=0;i<n;i++){
