@@ -7,7 +7,7 @@ int main() {
     for (int i = 1; i <= N; i++) {
         // Print spaces for alignment
         for (int j = 1; j <= N - i; j++) {
-            printf(" ");
+            printf("");
         }
         // Print alphabets
         for (char ch = 'A'; ch < 'A' + i; ch++) {
