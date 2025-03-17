@@ -14,5 +14,5 @@ int isPrime(int n){
 int maiin(){
     int n;
     scanf("%d",&n);
-    printf("%d",prime(n));
+    printf("%d",isPrime(n));
 }
