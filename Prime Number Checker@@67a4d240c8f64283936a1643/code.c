@@ -11,7 +11,7 @@ int prime(int n){
         return count;
             }
 }
-int main(){
+int maiin(){
     int n;
     scanf("%d",&n);
     printf("%d",prime(n));
