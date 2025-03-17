@@ -3,10 +3,7 @@ int isPrime(int n){
     int count,i;
     for(i=2;i<n;i++){
         if(n%i==0){
-            count==1;
-        }
-        else{
-            count==0;
+            count++;
         }
         return count;
             }
@@ -14,5 +11,11 @@ int isPrime(int n){
 int maiin(){
     int n;
     scanf("%d",&n);
-    printf("%d",isPrime(n));
+    if(isPrime(n)){
+        printf("1");
+    }
+    else{
+        printf("0");
+    }
+    return 0;
 }
