@@ -8,15 +8,9 @@ int main() {
         scanf("%d", &arr[i]);
     }
     scanf("%d", &b);
-    b = b + 1;
-    int result[a];
+    b = (b + 1) % a;
     for (int i = 0; i < a; i++) {
-        if (i + b < a) {
-            result[i] = arr[i + b];
-        } else {
-            result[i] = -1;
-        }
-        printf("%d\n", result[i]);
+        printf("%d\n", arr[(i + b) % a]);
     }
     return 0;
 }
