@@ -6,8 +6,8 @@ int main(){
     for(int i=0;i<a;i++){
         scanf("%d",&arr[i]);
     }
-    b=b+1;
     scanf("%d",&b);
+    b=b+1;
     for(int i=0;i<a;i++){
         arr[i]=arr[i+b];
         printf("%d\n",arr[i]);
