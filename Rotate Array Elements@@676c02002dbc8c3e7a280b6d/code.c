@@ -7,7 +7,7 @@ int main() {
         scanf("%d", &arr[i]);
     }
     scanf("%d", &b);
-    b = (b - 1) % a;
+    b = (b + 1) % a;
     for (int i = 0; i < a; i++) {
         printf("%d\n", arr[(i + b) % a]);
     }
