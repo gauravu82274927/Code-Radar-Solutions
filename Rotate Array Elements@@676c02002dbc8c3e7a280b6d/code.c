@@ -9,7 +9,8 @@ int main(){
     scanf("%d",&b);
     b=b+1;
     for(int i=0;i<a;i++){
-        arr[i]=arr[i+b];
+        arr[i]=temp;
+        arr[i+b]=temp;
         printf("%d\n",arr[i]);
     }
     return 0;
