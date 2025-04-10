@@ -9,7 +9,7 @@ int main(){
     scanf("%d",&b);
     for(int i=0;i<a;i++){
         arr[i]=arr[i+b];
-        printf("%d",arr[i]);
+        printf("%d\n",arr[i]);
     }
     return 0;
 }
